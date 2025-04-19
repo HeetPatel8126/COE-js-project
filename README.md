@@ -50,8 +50,7 @@ typing-race-game/
 You can run this locally in a few simple steps:
 
 ```bash
-git clone https://github.com/your-username/typing-race-game.git
-cd typing-race-game
+git clone https://github.com/HeetPatel8126/COE-js-project.git
 open index.html
 ```
 
