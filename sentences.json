@@ -1,0 +1,45 @@
+{
+  "easy": [
+    "The quick brown fox jumps over the lazy dog.",
+    "Typing fast is a fun and useful skill.",
+    "Never stop learning and improving.",
+    "JavaScript powers the interactive web.",
+    "Practice makes perfect in every field.",
+    "Stay focused and code like a ninja.",
+    "A smooth sea never made a skilled sailor.",
+    "The cat jumped over the fence.",
+    "He forgot his umbrella on the bus.",
+    "Stars twinkled brightly in the night sky.",
+    "She loves painting during rainy days.",
+    "A loud crash startled everyone in the room.",
+    "The robot danced to the beat of the music.",
+    "Coffee tastes better on a cold morning.",
+    "He writes stories about time travel.",
+    "They found an old map in the attic.",
+    "A gentle breeze blew through the trees."
+  ],
+  "medium": [
+    "Python is known for its readability and simplicity, making it ideal for beginners and professionals alike.",
+    "A good programmer is someone who always looks both ways before crossing a one-way street.",
+    "Technology is best when it brings people together and solves real-world problems efficiently.",
+    "Learning to code is not just about syntax, but about solving problems and thinking logically.",
+    "Artificial Intelligence is transforming industries by automating tasks and enhancing decision-making.",
+    "Programming isn't about what you know; it's about what you can figure out.",
+    "In the world of software development, failing fast often leads to faster innovation and better solutions.",
+    "Great web design is not just about aesthetics, but also about usability and user experience.",
+    "The code you write makes you a developer; the bugs you fix make you a professional.",
+    "Consistency in coding style helps teams collaborate better and maintain large projects with ease."
+  ],
+  "hard": [
+    "Machine learning is a subset of artificial intelligence that focuses on the development of algorithms that can learn and make predictions from data.",
+    "Big O notation is a mathematical representation used to describe the efficiency and performance of an algorithm in terms of time or space complexity.",
+    "A Turing machine is a theoretical model of computation that defines an abstract machine capable of simulating any computer algorithm.",
+    "Data structures such as arrays, linked lists, trees, and graphs are fundamental concepts used to organize and store data efficiently.",
+    "The halting problem is a famous decision problem that proves it is impossible to determine, in all cases, whether a computer program will finish running or continue forever.",
+    "Recursion is a programming technique where a function calls itself to solve smaller instances of the same problem until reaching a base case.",
+    "In distributed systems, consensus algorithms like Paxos and Raft help ensure agreement among multiple nodes, even in the presence of faults.",
+    "Concurrency is the ability of a system to handle multiple tasks at once, which is crucial for improving performance in modern computing environments.",
+    "A compiler translates high-level programming code into machine code, enabling a computer to execute the written instructions efficiently.",
+    "Lambda calculus is a formal system in mathematical logic and computer science for expressing computation based on function abstraction and application."
+  ]
+}

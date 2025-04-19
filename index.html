@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Race Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🏁 Typing Race</h1>
+      <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+
+    <div class="controls">
+      <div class="difficulty-selector">
+        <button class="difficulty-btn active" onclick="setDifficulty('easy')">Easy</button>
+        <button class="difficulty-btn" onclick="setDifficulty('medium')">Medium</button>
+        <button class="difficulty-btn" onclick="setDifficulty('hard')">Hard</button>
+      </div>
+      <div id="timer"><i class="fas fa-clock"></i> <span id="time">60</span>s</div>
+    </div>
+
+    <p id="sentence">Click "Start Race" to begin</p>
+
+    <textarea id="input" placeholder="Start typing here..." disabled></textarea>
+
+    <div id="progressBarContainer">
+      <div id="progressBar"></div>
+    </div>
+
+    <div class="stats-container">
+      <div class="stat-box">
+        <div class="stat-value" id="wpm">0</div>
+        <div class="stat-label">WPM</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-value" id="accuracy">100%</div>
+        <div class="stat-label">Accuracy</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-value" id="errors">0</div>
+        <div class="stat-label">Errors</div>
+      </div>
+    </div>
+
+    <p id="result"></p>
+
+    <div class="buttons">
+      <button onclick="startGame()"><i class="fas fa-play"></i> Start</button>
+      <button class="secondary" onclick="resetGame()" id="resetBtn" disabled><i class="fas fa-redo"></i> Restart</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
